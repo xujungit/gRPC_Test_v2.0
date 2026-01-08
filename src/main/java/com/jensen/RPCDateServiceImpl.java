@@ -1,13 +1,11 @@
-package com.chenj;
+package com.jensen;
 
-import com.chenj.protobuf.RPCDateRequest;
-import com.chenj.protobuf.RPCDateResponse;
-import com.chenj.protobuf.RPCDateServiceGrpc;
+import com.jensen.protobuf.RPCDateRequest;
+import com.jensen.protobuf.RPCDateResponse;
+import com.jensen.protobuf.RPCDateServiceGrpc;
 import io.grpc.stub.StreamObserver;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-
-import static com.chenj.protobuf.RPCDateServiceGrpc.getRecordDatesMethod;
 
 // RPCDateServiceGrpc.RPCDateServiceImplBase 这个就是接口.
 // RPCDateServiceImpl 我们需要继承他的,实现方法回调

@@ -1,7 +1,7 @@
-package com.chenj;
-import com.chenj.protobuf.RPCDateRequest;
-import com.chenj.protobuf.RPCDateResponse;
-import com.chenj.protobuf.RPCDateServiceGrpc;
+package com.jensen;
+import com.jensen.protobuf.RPCDateRequest;
+import com.jensen.protobuf.RPCDateResponse;
+import com.jensen.protobuf.RPCDateServiceGrpc;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.stub.StreamObserver;

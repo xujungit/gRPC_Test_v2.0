@@ -1,10 +1,10 @@
 syntax = "proto3"; // 协议版本
 // 选项配置
-option java_package = "com.chenj.protobuf";
+option java_package = "com.jensen.protobuf";
 option java_outer_classname = "RPCDateServiceApi";
 option java_multiple_files = true;
 // 定义包名
-package com.chenj.protobuf;
+package com.jensen.protobuf;
 // 服务接口.定义请求参数和相应结果
 service RPCDateService {
   rpc getDate (RPCDateRequest) returns (RPCDateResponse) {
